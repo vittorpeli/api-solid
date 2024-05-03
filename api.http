@@ -1,0 +1,20 @@
+POST http://localhost:3333/users
+Content-Type: application/json
+
+{
+  "name": "Vittor Pelicarto Admin",
+  "email": "vittor.peli@gmail.com",
+  "password": "senha123"
+}
+
+###
+POST http://localhost:3333/sessions
+Content-Type: application/json
+
+{
+  "email": "vittorpeli5@gmail.com",
+  "password": "senha123"
+}
+
+###
+GET http://localhost:3333/me
